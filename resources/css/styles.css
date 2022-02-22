@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: black;
+
+}
+
+
+nav {
+  background-color: black;
+  min-height: 69px;
+  position:sticky;
+  border-bottom: 0.5px solid seashell;
+  opacity: 0.8;
+}
+
+/* Flex universal */
+.container {
+  display: flex;
+}
+
+
+.nav-container {
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  min-height: inherit;
+}
+
+#nav-link-container {
+  justify-content: space-around;
+  
+}
+
+#logo {
+  height: 50px;
+  margin-left: 10px; 
+}
+
+.background {
+  background: no-repeat url('/resources/images/img-mission-background.webp');
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+
